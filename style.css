@@ -215,3 +215,24 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+
+.nomes_flores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nomes_flores img {
+  width: 40px;
+  height: auto;
+}
+
+.nomes_flores h2 {
+  margin: 0;
+  font-family: 'Cursive', sans-serif;
+  font-size: 24px;
+  color: #6a4c93;
+}
