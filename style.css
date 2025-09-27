@@ -1,0 +1,217 @@
+body {
+  background-color: #E9F2DF; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #E9F2DF;
+}
+
+.cabecalho {
+  text-align: center;
+  background-color: #E9F2DF;
+  padding: 30px;
+}
+
+.cabecalho h1 {
+  font-family: 'Playfair Display', serif;  
+  font-size: 4.5em;
+  margin: 0;
+  color: #333;
+}
+
+.cabecalho h2 {
+  font-family: 'Great Vibes', cursive;  
+  font-size: 3.5em;
+  margin-top: 10px;
+  color: #5E7349;
+}
+
+.preferencias h3 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3.0em;
+    color:#333
+}
+
+.cores {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cor { 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-bottom: 8px;
+}
+
+.cor-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.inox {
+  background: linear-gradient(90deg, #a9a9a9, #dcdcdc, #808080);
+  color: #333;
+}
+
+
+.preto {
+    background-color: #000;
+}
+
+.branco {
+    background-color: #fff;
+}
+
+.verde {
+    background-color: #3F5925;
+}
+
+.inspiracoes {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5em;
+    color:#333
+}
+
+.presentes {
+  background-color: #E9F2DF;
+ 
+}
+
+.presentes h3 {
+  font-family: 'Patrick Hand', cursive;
+  color: #333;
+   font-size: 2.5em;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.3em;  
+}
+
+.item input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.item input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.presentes h2 {
+    font-family: 'Caveat', cursive;
+    color: #5E7349;
+    font-size: 2.0em;
+
+}
+
+.cozinha h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+}
+
+.container_colunas_cozinha {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.coluna_cozinha {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nome_quarto h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+}
+
+.nome_banheiro h2{
+   font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+}
+
+.container_colunas_quarto_e_banheiro {
+  display: flex;
+  gap: 240px;
+  margin-bottom: 60px;
+}
+
+.coluna_qb {
+  display: flex;
+  flex-direction: column;
+}
+
+.nome_lavanderia h2 {
+    font-family: 'Josefins sans', sans-serif;
+    color: #333;
+}
+
+.container_colunas_lavanderia {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.coluna_lms {
+    flex: none;
+    min-width: 250px;
+}
+
+.nome_maiores h2 {
+   font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.nome_lavanderia h2,
+.nome_maiores h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2;
+}
+
+.container_img {
+  display: flex;
+  flex-direction: column; /* empilha título e imagem verticalmente */
+  justify-content: center;
+  align-items: center;
+  height: 67vh;
+  gap: 1px; /* reduz espaço entre título e imagem */
+}
+
+.container_img img {
+  width: 100%; /* aumenta a imagem */
+  max-width: 1200px; /* limite para telas grandes */
+  height: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.barra-creditos {
+  background-color: #a5b197; /* Altere para a cor que quiser */
+  color: #333;           /* Cor do texto */
+  font-size: 12px;        /* Tamanho do texto */
+  text-align: center;     /* Centraliza o texto */
+  padding: 5px 0;         /* Altura da barra */
+  position: fixed;        /* Fixa no rodapé */
+  bottom: 0;
+  width: 100%;
+}
